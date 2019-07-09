@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>VIM Comandos Básicos</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+        <h1 id="VIM-Comandos-Básicos">VIM Comandos Básicos</h1>
+<table>
+<thead>
+<tr>
+<th>Comando (modo normal)</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i</td>
+<td>Entra no modo de inserção</td>
+</tr>
+<tr>
+<td>Esc</td>
+<td>Entra no modo normal</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Deleta um caractere</td>
+</tr>
+<tr>
+<td>u</td>
+<td>Desfaz a última alteração (equiavlente a ctrl + z em outros editores)</td>
+</tr>
+<tr>
+<td>Ctrl + r</td>
+<td>Refaz a última alteração</td>
+</tr>
+<tr>
+<td>yy</td>
+<td>Insere uma linha no buffer (copia a linha)</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>Deleta uma linha e a insere no buffer</td>
+</tr>
+<tr>
+<td>p</td>
+<td>Cola o conteúdo do buffer</td>
+</tr>
+<tr>
+<td>o</td>
+<td>Insere uma nova linha em baixo do cursor</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Insere uma linha acima do cursor</td>
+</tr>
+<tr>
+<td>gg</td>
+<td>Salta para o início do arquivo</td>
+</tr>
+<tr>
+<td>G</td>
+<td>Salta para o final do arquivo</td>
+</tr>
+<tr>
+<td>/exemplo</td>
+<td>Pesquisa a palavra &quot;exemplo&quot; no texto. A próxima ocorrência pode ser consultada com a letra <code>n</code> e a anterior com <code>N</code></td>
+</tr>
+<tr>
+<td>Ctrl + Shift + v</td>
+<td>Cola o conteúdo do buffer externo (o que foi copiado fora do VIM)</td>
+</tr>
+<tr>
+<td>Ctrl + s</td>
+<td>Ao invés de salvar as alterações, trava o terminal</td>
+</tr>
+<tr>
+<td>Ctrl + q</td>
+<td>Destrava o terminal do comando acima :)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:w</td>
+<td>Salva as alterações</td>
+</tr>
+<tr>
+<td>:wq</td>
+<td>Salva as alterações e fecha o arquivo</td>
+</tr>
+<tr>
+<td>:q!</td>
+<td>Fecha o arquivo sem salvar alterações</td>
+</tr>
+<tr>
+<td>:set number</td>
+<td>Ativa numeração nas linhas</td>
+</tr>
+<tr>
+<td>:set expandtab</td>
+<td>Troca tabs por espaços</td>
+</tr>
+<tr>
+<td>:set shiftwidth=4</td>
+<td>Indentação de 4 espaços</td>
+</tr>
+<tr>
+<td>:set tabstop=4</td>
+<td>Tab de tamanho 4</td>
+</tr>
+<tr>
+<td>:set autoindent</td>
+<td>Indentação automática</td>
+</tr>
+<tr>
+<td>:set cindent</td>
+<td>Indentação melhorada para C/C++</td>
+</tr>
+</tbody>
+</table>
+
+    </body>
+    </html>
