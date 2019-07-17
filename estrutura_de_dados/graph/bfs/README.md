@@ -1,4 +1,4 @@
-#BFS
+# BFS
 
 Exemplo de aplicação de BFS (Breadth-First Search). O algoritmo pode ser usado para determinar se é possível alcançar algum nó, partindo de uma origem determidada da entrada.
 
