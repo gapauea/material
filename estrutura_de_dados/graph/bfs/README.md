@@ -1,4 +1,4 @@
-# BFS
+#BFS
 
 Exemplo de aplicação de BFS (Breadth-First Search). O algoritmo pode ser usado para determinar se é possível alcançar algum nó, partindo de uma origem determidada da entrada.
 
@@ -14,4 +14,4 @@ Exemplo de entrada e saída:
 
 
 
-Há um compilado de exercícios de exemplo envolvendo aplicações de do algoritmo e de modelagem com grafos.
+Há um compilado de exercícios de exemplo envolvendo aplicações de do algoritmo e de modelagem com grafos no [aqui](https://a2oj.com/standings?ID=40075).
